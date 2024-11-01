@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post de Instagram Simulado</title>
+    <title>Instagram Post</title>
+    <!-- Enlace a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlace al archivo CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="instagram-post">
+        <!-- Encabezado del post -->
         <div class="post-header">
             <div class="user-info">
                 <img src="https://img.icons8.com/ios-filled/50/000000/html-5.png" alt="HTML5 Logo" class="user-icon">
                 <div class="user-details">
-                    <span class="username">HTML5</span>
+                    <span class="username">HTML5</span><br>
                     <span class="user-location">Rigoberto</span>
                 </div>
             </div>
-            <div class="post-options">⋮</div>
+            <!-- Ícono de tres puntos verticales alineado a la derecha -->
+            <div class="post-options">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
         </div>
 
-        
+        <!-- Imagen principal del post -->
         <div class="post-image-placeholder">
             <img src="https://3.bp.blogspot.com/-JxYjZjRXIh4/VDWJoJPtYuI/AAAAAAACVDM/C9r2wraqtlQ/s1600/paisajes%2Bnaturales%2Bfotos%2Bnuevas%2B(10).jpg" alt="Paisaje Natural" class="landscape-image">
         </div>
 
-        <div class="post-actions">
+        <!-- Acciones del post -->
+        <div class="post-actions d-flex align-items-center">
             <div class="action-icons">
-                <img src="https://img.icons8.com/ios/24/000000/like--v1.png">
-                <img src="https://img.icons8.com/ios/24/000000/speech-bubble--v1.png">
-                <img src="https://img.icons8.com/?size=100&id=93297&format=png&color=000000">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
             </div>
-            <img src="https://img.icons8.com/ios/24/000000/bookmark-ribbon--v1.png" alt="Bookmark" class="bookmark">
+            <i class="far fa-bookmark bookmark"></i>
         </div>
 
+        <!-- Likes del post -->
         <div class="post-likes">
             <span>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100,000 others</b></span>
         </div>
 
+        <!-- Descripción del post -->
         <div class="post-caption">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
         </div>

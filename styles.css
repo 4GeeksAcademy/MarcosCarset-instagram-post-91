@@ -1,32 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: black;
+    height: 100vh;
+    margin: 0;
+    background-color: grey;
 }
 
 .instagram-post {
-    width: 400px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #ffffff;
+    width: 420px;
+    border: auto solid #ddd;
     overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
 }
 
 .post-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .user-info {
@@ -35,68 +28,65 @@ body {
 }
 
 .user-icon {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.user-details {
-    display: flex;
-    flex-direction: column;
-}
-
-.username {
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.user-location {
-    font-size: 12px;
-    color: #555;
-}
-
 .post-options {
-    font-size: 24px;
+    font-size: 1.2rem;
     cursor: pointer;
+    color: #666;
 }
 
-.post-image-placeholder {
+.post-image-placeholder img {
     width: 100%;
-    overflow: hidden;
-}
-.landscape-image {
-    width: 100%;
-    height: 10%;
-    display: block;
 }
 
 .post-actions {
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 15px;
+    align-items: center;
 }
 
-.action-icons img {
-    width: 24px;
+.action-icons i {
     margin-right: 15px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .bookmark {
-    width: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
+    margin-left: auto;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.user-location {
+    font-size: 0.9rem;
+    color: #666;
 }
 
 .post-likes {
-    padding: 0 15px;
-    font-size: 14px;
-    margin-top: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
 }
 
 .post-caption {
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 10px;
+}
+
+.post-caption p {
+    margin: 0;
+    font-size: 0.9rem;
     color: #333;
-    line-height: 1.5;
+}
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
